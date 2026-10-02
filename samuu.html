@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+            transition:all ease 1s;
+        }
+        body{
+            background-color: rgb(0, 123, 255);
+        }
+
+        .start-div{
+            position:sticky;
+            top:0;
+
+            
+        }
+        h3{
+            background-color:#fff;
+            padding:30px;
+            font-family:cursive;
+            font-size:1.5rem;
+        }
+        h5{ 
+            font-size:8px;
+            margin-left:60px;
+            
+        }
+        span{
+            margin-left: 50px;
+        }
+    .main-div{
+        color:#fff;
+        font-family:sans-serif;
+        margin-left:750px;
+        margin-top:190px;
+
+    } 
+p{
+    width:320px;
+    
+}
+button{
+    padding:10px;
+    color:rgb(0, 64, 255);
+    font-family:sans-serif;
+    font-weight:bolder;
+    
+}
+img{
+   position:absolute;
+   right:550px;
+   top: 75px;
+}
+.sub-div{
+    background-color: #fff;
+    width: 1000px;
+    height:500px;
+}
+main{
+    background-color: #fff;
+    padding:80px;
+    margin-top:22px;
+    box-shadow:6px  6px #ccc;
+}
+h6,h4,.but{
+    text-align: center;
+}
+h4{
+    margin-top:-60px;
+}
+h6{
+    font-size:16px;
+    font-weight: lighter;
+}
+.but{
+   margin-left:600px;
+   width:150px;
+   font-weight:bolder;
+}
+i{
+    padding: 90px;
+    font-size: 3rem;
+    color:#fff;
+    margin-left:150px;
+    
+   
+}
+footer{
+    display:block;
+    display:flex;
+    justify-content: center;
+    align-content:space-between;
+}
+.hari{
+    display:inline;
+    font-size:15px;
+    margin-left:100px;
+    color:#fff;
+    font-family:cursive;
+    margin-top: -45px;
+
+}
+.twitter,.facebook,.instagram{
+    color:#000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.last-div{
+    height:38vh;
+    width:auto;
+    background-color: #000000;
+    border-radius:2px;
+    padding:30px;
+}
+.head{
+    color:#fff;
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.last-class{
+    text-align: center;
+    margin-left: 450px;
+    padding:10px;
+
+}
+.pp{
+    font-size:15px;
+}
+.but2{
+    margin-left: 730px;
+    margin-top:30px;
+}
+.pp2{
+    font-size: 10px;
+    padding:10px;
+
+}
+.mon{
+    font-size:20px;
+}
+.sun{
+    font-size:15px;
+}
+.finish{
+    height:90vh;
+    width:auto;
+    background-color: #fff;
+    border-radius:2px;
+    padding:30px;
+    
+}
+.last-h1{
+    text-align: center;
+    
+}
+.footer-div{
+    /* width:50%px;
+    height:600px;
+    border:3px solid #ccc;
+    margin-top:20px; */
+    display:flex;
+    gap:0.1rem;
+    justify-content: center;
+    align-items:center;
+    margin-top:1.5rem;
+    padding: 5px;
+    background-color: #fff;
+    background-position: 100%;
+    width: 1000px;
+
+}
+.img1{
+    width:200px;
+    height: 200px; 
+    border:1px solid #706d6d;
+    background-image:url(m1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.img2{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.img3{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.img4{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.img5{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m5.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.last-footer{
+    display:flex;
+    justify-content: center;
+    margin-top:3px;
+    gap:0.1rem;
+    padding: 5px;
+    background-color: #fff;
+     
+}
+.img6{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m6.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.img7{
+
+    width:200px;
+    height:200px; 
+    border:1px solid #545252;
+    background-image:url(m7.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+
+}
+.img8{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m8.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+
+}
+.img9{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m9.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+
+}
+.img10{
+    width:200px;
+    height:200px; 
+    border:1px solid #706d6d;
+    background-image:url(m10.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+
+}
+button:hover{
+   background-color:rgb(255, 255, 0);
+   border-radius:20px;
+   transition:all 1s;
+}
+
+.sam{
+    height:30vh;
+    background-color: black;
+    margin-left: -30px;
+    text-align: center;
+    margin-top: 170px;
+    color: #f7f5f5;
+    width:105%; 
+    margin-top:100px;
+    text-size-adjust: 10px; 
+}
+.sasa{
+    font-size: 30px;
+    padding:10px;
+}
+.logo{
+    width:105%;
+    height:30vh;
+    margin-left:-30px;
+    color: #000000;
+   background-color: rgb(15, 139, 223);
+}
+.logo i{
+    margin-top: -50px;
+
+}
+.susu{
+    width: 600px;
+    margin-left: 390px;
+}
+.blueman{
+    position: absolute;
+    top: 75px;
+    right: 550px;
+    margin-right: 300px;
+}
+
+
+    </style>
+</head>
+<body>
+
+ <div class="start-div">
+     <h3><span>INDOCHINO <br><H5>MADE TO MEASURE</H5></span></h3>
+ </div>
+
+ <div class="main-div">
+    <h1>THE TAILOR IS IN</h1>
+    <br>
+    <p>The ultimate custom menswear experience is now open in Chinook Center.</p><br>
+    <u>__________________________________</u><br><br>
+<p>visit us by april 30 to be entered in a draw for a perfectly tailored wardrobe.</p>
+<br>
+<button>BOOK AN APPOINTMENT</button>
+<img class="blueman" src="masss.png" alt="men" width="400px" height="500px">
+<br>
+<br>
+    
+ </div>
+<main><h4>THE MADE TO MEASURE DIFFERENCE</h4><br>
+    <h6>We create suits and shirts customized to your eatract measurements and personal style,at excellent prices.</h6><br>
+    <button class="but">SEE THE SUITS</button>  
+</main>
+<article>
+    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.twitter.com"><i  id="ii"class="fa-brands fa-twitter"></i></a>
+    <a href="https://www.instagram.com"><i  id="ii"class="fa-brands fa-instagram"></i></a>
+</article>
+<footer>
+    <div class="hari">
+        <h1 class="facebook">Facebook</h1>
+        <p class="para1">Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.</p>
+    </div>
+    <div class="hari">
+        <h1 class="twitter">Twitter</h1>
+        <p>Twitter, officially known since July 2023 as X, is a social networking service. It is one of the world's largest social media websites and one of the most ...</p>
+    </div>
+    <div class="hari">
+        <h1 class="instagram">Instagram</h1>
+        <p>Instagram is a photo and video sharing social networking service owned by Meta Platforms. It allows users to upload media that can be edited with filters, ...</p>
+    </div>
+</footer>
+<div class="last-div">
+     <div>
+        <h1 class="head">VISIT US AT CHINOOK CENTRE 
+           <div class="last-class"><p class="mon">Mon to Sat 9.30.9</p>
+            <br><p class="sun">Sun11.7</p>
+            <p class="pp">Across from Lululemom on level1</p>
+            <p class="pp2">Grand Opening on April 6</p>
+        </div> 
+        </h1>
+        
+     </div>
+
+</div>
+<div class="finish">
+    <h1 class="last-h1">#INDOCHINO</h1>
+    <center>
+    <div class="footer-div">
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+        <div class="img4"></div>
+        <div class="img5"></div>
+    </div>
+   <div class="last-footer">
+    <div class="img6"></div>        
+    <div class="img7"></div>
+    <div class="img8"></div>
+    <div class="img9"></div>
+    <div class="img10"></div>
+   </div>
+</center>
+
+<div class="sam"><h4 class="sasa">INDOCHINO IN THE NEWS</h2><br>
+    <h1 class="susu">"indochino: The It's-Too-Good-To-Be
+        -True-That's-Actually-True-Cutom suit."</h1></div>
+        <div class="logo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+
+        </div>
+        
+</body>
+</html>
